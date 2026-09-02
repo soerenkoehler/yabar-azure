@@ -4,6 +4,11 @@
 
 YABAR is a tiny secret-sharing tool that runs on Azure.
 
+**Note**: This is the original prototype running on Azure SWA free tier and
+Azure Functions flex consumption plan. It is no longer actively developed.
+
+For the currently maintained project see: https://github.com/soerenkoehler/yabar
+
 ## Architecture
 
 ![](../artwork/architecture.svg)
