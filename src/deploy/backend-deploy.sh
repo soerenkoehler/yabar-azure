@@ -19,7 +19,7 @@ az functionapp config appsettings set \
 # --------------------
 # build functions
 # --------------------
-pushd "$REPO_ROOT/azure/backend"
+pushd "$REPO_ROOT/src/backend"
 func pack --skip-install # install is done as build step
 
 # --------------------

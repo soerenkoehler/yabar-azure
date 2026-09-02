@@ -15,7 +15,7 @@ DEPLOYMENT_TOKEN=$(
 # --------------------
 # deploy SWA
 # --------------------
-pushd "$REPO_ROOT/azure"
+pushd "$REPO_ROOT/src"
 swa deploy \
     --verbose silly \
     --deployment-token "$DEPLOYMENT_TOKEN"

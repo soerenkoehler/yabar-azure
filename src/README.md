@@ -1,8 +1,6 @@
-# YABAR Azure
+# YABAR Azure Source
 
-This Azure implementation is a proof of concept. It runs at the time of
-writing but is no longer maintained. The currently maintained implementation
-is [the Cloudflare version](../cloudflare/README.md).
+This directory contains the Azure application and deployment code.
 
 ## Architecture
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Seed script for local Azurite storage.
- * Mirrors the production resources defined in azure/tf/30-storage.tf.
+ * Mirrors the production resources defined in src/tf/30-storage.tf.
  *
  * Requires users.json in the same directory (git-ignored).
  * Reads connection strings from local.settings.json (BlobConnectionString /
